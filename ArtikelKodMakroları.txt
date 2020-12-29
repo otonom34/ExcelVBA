@@ -1,0 +1,92 @@
+
+'sayfa üzerinde utonlarla oluşturuldu.
+
+Sub Makro1()
+'
+' Makro1 Makro
+'
+' Klavye Kısayolu: Ctrl+a
+  Range("H2").Select
+    Selection.Copy
+    ActiveWindow.ScrollColumn = 1
+    Range("A2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Application.CutCopyMode = False
+    Selection.AutoFill Destination:=Range("A2:A256"), Type:=xlFillDefault
+    Range("A2:A256").Select
+    
+    
+End Sub
+Sub Makro2()
+'
+' Makro2 Makro
+'
+' Klavye Kısayolu: Ctrl+b
+
+'
+    Rows("1:1").RowHeight = 40
+    Rows("2:256").Select
+    Selection.RowHeight = 24
+    Cells.Select
+    With Selection
+        .HorizontalAlignment = xlGeneral
+        .VerticalAlignment = xlCenter
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = True
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    
+    
+    Columns("B:B").ColumnWidth = 0.8
+    
+    Range("B2:B256").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("A1:D1").Select
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "Kategori"
+    Range("C1").Select
+    ActiveCell.FormulaR1C1 = "Son oktet"
+    Range("D1").Select
+    ActiveCell.FormulaR1C1 = "Birleştirme"
+    Columns("E:E").Select
+    Columns("D:D").ColumnWidth = 16
+    Range("E1").Select
+    Columns("E:E").ColumnWidth = 30
+    ActiveCell.FormulaR1C1 = "ürün adı"
+    Range("C2").Select
+    ActiveCell.FormulaR1C1 = "001"
+    Selection.AutoFill Destination:=Range("C2:C256"), Type:=xlFillSeries
+    Range("C2:C256").Select
+    Range("D2").Select
+    ActiveCell.FormulaR1C1 = "=CONCATENATE(RC[-3],RC[-1])"
+    Selection.AutoFill Destination:=Range("D2:D256"), Type:=xlFillDefault
+    Range("D2:D256").Select
+    Range("E16").Select
+End Sub
+
