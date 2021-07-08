@@ -1,0 +1,44 @@
+Option Explicit
+
+Private Sub Workbook_Open()
+
+Application.Visible = False
+
+Dim sifre As Integer
+
+Dim i As Integer
+
+i = 0
+
+On Error Resume Next
+
+While i < 3:
+
+sifre = InputBox("Lütfen Şifrenizi Giriniz", "Üretim Takip Formuna Giriş")
+
+i = i + 1
+
+If sifre = 1234 Then
+
+    MsgBox ("HoşGeldiniz")
+    
+    Application.Visible = True
+    
+    Exit Sub
+    
+ElseIf i = 3 Then
+   
+    MsgBox ("3 Defa yanlış Şifre Yazdınız! Daha Sonra Tekrar Deneyiniz.."), vbInformation
+    
+    Application.Quit
+
+Else
+
+     MsgBox ("Şifreyi Yanlış Girdiniz! Tekrar Deneyin..")
+     
+End If
+
+Wend
+    
+End Sub
+

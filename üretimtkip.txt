@@ -1,0 +1,17 @@
+=ÇOKETOPLA('[ortakTakipFormu.xlsm]1NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]1NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]1NoMakina'!$B:$B;B:B)    + 
+ ÇOKETOPLA('[ortakTakipFormu.xlsm]2NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]2NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]2NoMakina'!$B:$B;B:B)    + 
+ ÇOKETOPLA('[ortakTakipFormu.xlsm]3NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]3NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]3NoMakina'!$B:$B;B:B)    +
+ ÇOKETOPLA('[ortakTakipFormu.xlsm]4NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]4NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]4NoMakina'!$B:$B;B:B)    +
+ ÇOKETOPLA('[ortakTakipFormu.xlsm]5NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]5NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]5NoMakina'!$B:$B;B:B)    +
+ ÇOKETOPLA('[ortakTakipFormu.xlsm]6NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]6NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]6NoMakina'!$B:$B;B:B)    +
+ ÇOKETOPLA('[ortakTakipFormu.xlsm]7NoMakina'!$AA:$AA;'[ortakTakipFormu.xlsm]7NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]7NoMakina'!$B:$B;B:B)
+
+
+
+=ÇOKETOPLA('[ortakTakipFormu.xlsm]1NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]1NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]1NoMakina'!$B:$B;B:B)    + 
+ÇOKETOPLA('[ortakTakipFormu.xlsm]2NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]2NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]2NoMakina'!$B:$B;B:B)     +
+ÇOKETOPLA('[ortakTakipFormu.xlsm]3NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]3NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]3NoMakina'!$B:$B;B:B)     +  
+ÇOKETOPLA('[ortakTakipFormu.xlsm]4NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]4NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]4NoMakina'!$B:$B;B:B)     + 
+ÇOKETOPLA('[ortakTakipFormu.xlsm]5NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]5NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]5NoMakina'!$B:$B;B:B)     +    
+ÇOKETOPLA('[ortakTakipFormu.xlsm]6NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]6NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]6NoMakina'!$B:$B;B:B)     +
+ÇOKETOPLA('[ortakTakipFormu.xlsm]7NoMakina'!$Y:$Y;'[ortakTakipFormu.xlsm]7NoMakina'!$A:$A;A:A;'[ortakTakipFormu.xlsm]7NoMakina'!$B:$B;B:B)

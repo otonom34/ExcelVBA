@@ -1,0 +1,58 @@
+Sub Makro1()
+'
+' Makro1 Makro
+'
+
+'
+    Range("D1:D18").Select
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+End Sub
+Sub makro2()
+Range("B2:C6").Value = "Merhaba"
+
+End Sub
+Sub son_satir()
+Range("A1").Value = Range("A1").End(xlDown).Row
+End Sub
+Sub sonsutun()
+Range("A2").Value = Cells(1, Columns.Count).End(xlToLeft).Column
+End Sub
+Sub Msg_Box()
+MsgBox "Selamun Aleyküm", vbYesNo, "Merhaba"
+End Sub
+Sub input_box()
+Dim i As String
+i = InputBox("Lütfen bir sayı giriniz..", "Merhaba", 10)
+End Sub
+Sub app_in_box()
+Dim rng As Range
+Set rng = Application.InputBox("Lütfen Bir Değer Aralığı Giriniz", "ApplcationInputBox", Type:=8)
+rng.Select
+End Sub
+Sub if_Loop()
+Dim i As Variant
+i = Range("A8").Value
+If i = 4 Then
+Range("I1").Value = "Başarılı"
+ElseIf i < 4 Then
+Range("I1").Value = "Başarısız"
+Else
+Range("I1").Value = "Yanlış biçim"
+End If
+End Sub
+Sub iifff()
+Dim i As Variant
+i = Range("A3").Value
+i = VBA.IIf(i < 6, "Doğru", "Yanlış")
+Range("I2").Value = i
+End Sub
+Sub iffinput()
+Dim inn As Long
+Dim brm As String
+inn = InputBox("Bir Sayı Giriniz")
+brm = VBA.IIf(inn < 100, "Oldu", "Olmadı")
+Range("I4").Value = brm
+End Sub
