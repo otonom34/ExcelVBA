@@ -111,7 +111,7 @@ Private Sub UserForm_Click()
 Sub auto_open()
 UserForm2.Show
 End Sub
-'Burası boş module yazılacak
+'Burası boş module yazılacak yeni değişti
 'Sub auto_open()
 'UserForm2.Show
 'End Sub
